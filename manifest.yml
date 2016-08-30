@@ -1,0 +1,6 @@
+---
+applications:
+ - name: my-calendar-API
+   buildpack: java_buildpack
+   path: BookingCalendarAPI.war
+   #path: pgstudio-0.0.1-SNAPSHOT.war
