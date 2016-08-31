@@ -131,11 +131,11 @@ public class RoleUtil {
     	String token=getUAAToken();
     	System.out.println(token);
     	if(checkGroupMembership("feea4630-59c5-4eb4-b263-a182ab5097ed",memberID,token)){
-    		role="admin";
+    		role="user";
     	}else if(checkGroupMembership("feea4630-59c5-4eb4-b263-a182ab5097ed",memberID,token)){
     		role="warehouse";
     	}else if (checkGroupMembership("feea4630-59c5-4eb4-b263-a182ab5097ed",memberID,token)){
-    		role="user";
+    		role="admin";
     	}
     	return role;
     }
